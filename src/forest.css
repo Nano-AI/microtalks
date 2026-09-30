@@ -1,0 +1,96 @@
+/* Scoped forest journey; shared conversation and application styles stay intact. */
+.forest-app .workspace { background: var(--canvas); }
+.forest-app .workspace { position: relative; isolation: isolate; }
+.forest-app .workspace > main, .forest-app .workspace > .topbar, .forest-app .workspace > .local-invite, .forest-app .workspace > .storage-warning { position: relative; z-index: 1; }
+.forest-app .forest-canopy { position: absolute; inset: 90px 0 auto; height: 360px; overflow: hidden; pointer-events: none; opacity: .11; }
+.forest-app .forest-canopy .campus-scene { opacity: 1; color: var(--forest); }
+.forest-app .page-heading h1,
+.forest-app .biome-heading h3 { text-wrap: balance; }
+.forest-app .forest-path { margin-top: 32px; }
+.forest-app .forest-path > .section-heading p { max-width: 48ch; line-height: 1.6; }
+.forest-app .forest-map {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+}
+.forest-app .biome-meadow { --biome-surface: #edf2d9; --biome-ink: #42572b; }
+.forest-app .biome-woodland { --biome-surface: #dce9de; --biome-ink: #315a41; }
+.forest-app .biome-riverside { --biome-surface: #e0edf0; --biome-ink: #335d67; }
+.forest-app .biome-highlands { --biome-surface: #eee5d9; --biome-ink: #6b513b; }
+:root[data-theme=dark] .forest-app .biome-meadow { --biome-surface: #36432d; --biome-ink: #d1e3ac; }
+:root[data-theme=dark] .forest-app .biome-woodland { --biome-surface: #2d4435; --biome-ink: #bfdfc5; }
+:root[data-theme=dark] .forest-app .biome-riverside { --biome-surface: #2e444a; --biome-ink: #bcdee5; }
+:root[data-theme=dark] .forest-app .biome-highlands { --biome-surface: #493e32; --biome-ink: #e9d0ad; }
+.forest-app .forest-stop {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: 16px 16px 8px 8px;
+  background: var(--biome-surface);
+  color: var(--biome-ink);
+  overflow: hidden;
+}
+.forest-app .forest-stop-scene { position: relative; display: block; width: 100%; height: 88px; overflow: hidden; }
+.forest-app .forest-stop-scene > svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 1; z-index: 0; }
+.forest-app .forest-stop-copy { padding: 12px; display: grid; gap: 4px; width: 100%; }
+.forest-app .forest-stop-copy > small { font-size: 11px; font-weight: 800; letter-spacing: .08em; }
+.forest-app .forest-stop-copy > strong { font-size: 15px; }
+.forest-app .forest-stop-copy > span { display: flex; align-items: center; justify-content: space-between; gap: 4px; font-size: 12px; }
+.forest-app .forest-map-note { color: var(--muted); font-size: 12px; margin: 12px 0 28px; }
+.forest-app .biome-section { margin: 28px 0; }
+.forest-app .biome-heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  border-radius: 12px 32px 12px 12px;
+  background: var(--biome-surface);
+  color: var(--biome-ink);
+}
+.forest-app .biome-number { font-size: 24px; font-weight: 900; align-self: flex-start; }
+.forest-app .biome-heading h3 { font-size: 25px; margin: 2px 0; }
+.forest-app .biome-heading p { font-size: 13px; }
+.forest-app .biome-heading > div > small { font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.forest-app .biome-progress { margin-left: auto; text-align: right; font-size: 23px; font-weight: 800; flex-shrink: 0; }
+.forest-app .biome-progress small { display: block; font-size: 11px; font-weight: 600; }
+.forest-app .biome-progress,
+.forest-app .forest-stop-copy,
+.forest-app .forest-metrics { font-variant-numeric: tabular-nums; }
+.forest-app .biome-section .lesson-path { margin-top: 12px; }
+.forest-app .biome-section .path-lesson { min-height: 108px; }
+.forest-app .forest-delivery,
+.forest-app .forest-references { margin: 24px 0; padding-top: 20px; border-top: 1px solid var(--border); }
+.forest-app .forest-delivery h3 { display: flex; align-items: center; gap: 8px; }
+.forest-app .forest-delivery p,
+.forest-app .forest-references p,
+.forest-app .forest-delivery li { font-size: 14px; line-height: 1.65; margin-top: 8px; color: var(--muted); }
+.forest-app .forest-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 20px 0; }
+.forest-app .forest-metrics dt { color: var(--muted); font-size: 12px; margin-bottom: 4px; }
+.forest-app .forest-metrics dd { margin: 0; font-size: 15px; font-weight: 800; overflow-wrap: anywhere; }
+.forest-app .forest-references ul { padding-left: 20px; }
+.forest-app .forest-references a { display: inline-block; padding: 12px 0; color: var(--forest); text-underline-offset: 3px; overflow-wrap: anywhere; }
+.forest-app .review-heading .forest-end-reason { color: var(--text); line-height: 1.6; }
+.forest-app .forest-stop:focus-visible { outline: 3px solid var(--forest); outline-offset: 4px; }
+@media (hover: hover) and (pointer: fine) {
+  .forest-app .forest-stop:hover { box-shadow: 0 4px 12px var(--shadow); transform: translateY(-2px); }
+}
+@media (max-width: 700px) {
+  .forest-app .forest-map { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .forest-app .forest-stop-scene { height: 76px; }
+  .forest-app .biome-heading { padding: 16px; gap: 12px; }
+  .forest-app .biome-number { font-size: 18px; }
+  .forest-app .biome-heading h3 { font-size: 22px; }
+  .forest-app .biome-heading p { max-width: 23ch; }
+}
+@media (max-width: 400px) {
+  .forest-app .forest-metrics { grid-template-columns: 1fr; }
+  .forest-app .biome-number { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .forest-app .forest-stop { transition: none; }
+  .forest-app .forest-stop:hover { transform: none; }
+}

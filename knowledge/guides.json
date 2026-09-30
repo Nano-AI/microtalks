@@ -1,0 +1,58 @@
+[
+  {
+    "id": "listening-relevant-follow-up",
+    "title": "Listen for meaning and ask a relevant follow-up",
+    "url": "https://ggia.berkeley.edu/practice/active_listening",
+    "text": "Evidence: UC Berkeley's Greater Good Science Center summarizes Weger and colleagues' 2014 study of brief initial conversations. Participants receiving active listening reported feeling more understood than those receiving advice or simple acknowledgments. The sample was mostly young, white, female college students; this finding does not establish a universal conversation formula. The university guide recommends paraphrasing and questions that clarify the speaker's meaning. Microtalks recommendation: Respond to a specific detail in the previous turn before introducing another topic. Briefly check your understanding, then ask one relevant, open follow-up if the person wants to continue. Leave room for correction and an answer. Avoid a rapid interview, repeated questions already answered, or rehearsing your next story while they speak. Evaluate responsiveness and understanding rather than question count, eye contact, or a required script.",
+    "tags": ["active listening", "follow up", "followup", "questions", "paraphrase", "clarify", "understood", "topic continuity", "interruption"]
+  },
+  {
+    "id": "reciprocity-voluntary-self-disclosure",
+    "title": "Share gradually without creating a disclosure debt",
+    "url": "https://ggia.berkeley.edu/practice/36_questions_for_increasing_closeness",
+    "text": "Evidence: UC Berkeley's research summary describes Aron and colleagues' 1997 structured conversation study: unfamiliar partners using progressively personal questions reported greater closeness than partners discussing superficial questions. It also cites Sprecher and colleagues' 2013 finding that alternating disclosure was associated with better interaction experiences than taking long, separate speaking turns. These findings concern structured study conditions; they do not guarantee friendship, romance, or comfort in everyday encounters. Microtalks recommendation: Offer a brief, relevant personal detail and leave space for the other person to share voluntarily. Begin with ordinary interests or experiences; deepen the conversation only when both people welcome it. Reciprocity means opportunities for both voices, not equal word counts or matching secrets. Someone can decline a question, stay light, or change topics without owing an explanation. Avoid turning their disclosure into a longer story about yourself.",
+    "tags": ["reciprocity", "self disclosure", "sharing", "closeness", "rapport", "oversharing", "turn taking", "personal questions", "privacy"]
+  },
+  {
+    "id": "sadness-validation-peer-support",
+    "title": "Support sadness without forcing a positive ending",
+    "url": "https://www.nhs.uk/every-mind-matters/supporting-others/helping-others/",
+    "text": "Guidance: NHS Every Mind Matters recommends making time to listen, using open questions, offering practical help, and avoiding pressure to talk. It also advises supporters to care for themselves and recognizes that some difficulties require professional support. This is public health guidance, not evidence that a particular sentence will change someone's mood. Microtalks recommendation: Acknowledge the sadness or disappointment the person actually described, using tentative language when their feelings are unclear. Validation recognizes their experience without requiring agreement with every conclusion. Ask whether they want listening, company, or help thinking through a next step. Avoid forced positivity, comparisons with worse situations, unsolicited solutions, and promises that everything will work out. Let sadness remain unresolved at the end of a conversation. Offer only support you can realistically give; ordinary peer kindness does not require diagnosing or treating someone.",
+    "tags": ["sad", "sadness", "upset", "disappointment", "emotional validation", "empathy", "support", "forced positivity", "advice", "listening"]
+  },
+  {
+    "id": "de-escalation-mutual-safety",
+    "title": "De-escalate anger while keeping firm boundaries",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3298202/",
+    "text": "Guidance: Richmond and colleagues' 2012 Project BETA consensus statement recommends personal space, concise speech, listening, realistic choices, and respectful limits during clinical de-escalation. The authors acknowledge limited research on specific verbal techniques. Its emergency psychiatry setting differs substantially from an ordinary disagreement; these notes adapt only general communication principles. Microtalks recommendation: Recognize the stated frustration, keep your response brief, and address one concrete issue without humiliation or counterattacks. Acknowledge feelings without endorsing accusations or accepting responsibility you do not have. State a behavioral boundary and an action you control, such as pausing or leaving if insults continue. The character receiving anger never has to accept abuse, threats, or intimidation to succeed. Keep exits clear and prioritize getting to safety when needed. Do not reward endless appeasement or imply that the recipient can control another person's aggression.",
+    "tags": ["anger", "angry", "de escalation", "deescalation", "conflict", "insults", "abuse", "threats", "boundaries", "safety", "time out"]
+  },
+  {
+    "id": "refusals-exits-autonomy",
+    "title": "Accept a refusal and make an exit easy",
+    "url": "https://www.loveisrespect.org/resources/what-are-my-boundaries/",
+    "text": "Guidance: Love is respect, a National Domestic Violence Hotline resource, describes boundaries as limits around comfort and treatment in relationships, including friendships. It emphasizes the right to change a boundary without pressure and distinguishes self-protection from attempts to control someone else. This is relationship guidance rather than an experimental claim about social success. Microtalks recommendation: Treat a declined invitation, private topic, or request to end the conversation as sufficient. Acknowledge it briefly and allow the topic or encounter to end. Avoid bargaining, demanding reasons, guilt, repeated invitations, or pursuing someone who is leaving. A previous yes does not create permanent permission. When a cue is ambiguous, one low-pressure check can clarify whether they want to continue; silence does not establish agreement. Respectful endings and accepting rejection should count as successful connection skills, even when no further conversation happens.",
+    "tags": ["refusal", "no", "rejection", "exit", "goodbye", "leave", "stop", "consent", "autonomy", "privacy", "boundaries", "pressure"]
+  },
+  {
+    "id": "fillers-pauses-speech-space",
+    "title": "Allow fillers, revisions, and pauses",
+    "url": "https://www.asha.org/public/speech/disorders/stuttering/",
+    "text": "Guidance: ASHA's public resource, served through the Communication Health Support Association, explains that interjections, repeated phrases, revisions, and unfinished thoughts can be typical disfluencies. It distinguishes these from stuttering and notes that rushing, impatience, and finishing someone's words can make speaking harder for people who stutter. This educational guidance does not supply a universal ideal filler rate or pause length. Microtalks recommendation: Allow ordinary um, uh, word searches, and thinking pauses without automatically marking them as mistakes. Wait for the speaker to finish and respond to their meaning. A speaker may choose to pause before answering or restart an unclear sentence. Offer pacing practice only when it serves their own communication goal. Do not infer dishonesty, low intelligence, or a speech disorder from hesitation. Reward understandable, respectful exchange rather than perfectly fluent delivery.",
+    "tags": ["fillers", "um", "uh", "pause", "pauses", "silence", "hesitation", "disfluency", "stuttering", "pacing", "word search", "speech"]
+  },
+  {
+    "id": "flat-pitch-interpretation-caution",
+    "title": "Flat pitch is not a reliable verdict on interest",
+    "url": "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder",
+    "text": "Source context: NIMH's autism information notes that some autistic people have a voice with little tonal variation and emphasizes a wide range of characteristics, strengths, and needs. It describes diagnosis as a broader professional evaluation. The page does not establish a way to infer a person's feelings or diagnosis from pitch. Microtalks recommendation: Treat flat pitch, monotone delivery, limited facial expression, and reduced eye contact as ambiguous observations. Avoid translating them automatically into boredom, hostility, dishonesty, or lack of empathy. Attend to the person's words, relevant responses, stated preferences, and the situation. If understanding matters, ask a neutral clarifying question instead of assigning an emotion. Never label a user or character autistic based on a voice sample. Optional practice with vocal variety should serve the speaker's chosen goal; animated delivery should not be a requirement for warmth or respect.",
+    "tags": ["flat pitch", "monotone", "tone of voice", "prosody", "intonation", "boredom", "interest", "neurodiversity", "autism", "eye contact", "emotion inference"]
+  },
+  {
+    "id": "genuine-interest-carnegie-inspired",
+    "title": "Carnegie-inspired genuine interest and sincere appreciation",
+    "url": "https://www.penguin.co.uk/books/56460/how-to-win-friends-and-influence-people-by-dale-carnegie/9780091906818",
+    "text": "Source context: Penguin's authorized publisher page presents Dale Carnegie's How to Win Friends and Influence People as practical advice about genuine relationships, communication, and constructive disagreement. A publisher description establishes the book's identity and broad themes; its promotional claims are not scientific evidence of effectiveness. Microtalks recommendation: Use a Carnegie-inspired stance of genuine interest by noticing what the other person values and inviting them to explain it. Give appreciation tied to something specific you honestly noticed. Remember a detail they chose to share and return to it when relevant. Avoid flattery, pretending to share an interest, or using warmth to obtain compliance. Curiosity should survive disagreement and a refusal. These are original coaching suggestions inspired by the book's relationship themes, not reproduced passages or a substitute for reading it. Success means a respectful exchange, with room for both people.",
+    "tags": ["Dale Carnegie", "How to Win Friends and Influence People", "genuine interest", "curiosity", "appreciation", "compliments", "sincerity", "respect", "connection"]
+  }
+]
